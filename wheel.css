@@ -1,0 +1,34 @@
+
+ body {
+   background-color: orange;
+ }
+
+ h1 {
+  font-size: 50px;
+  font-family: 'Bangers', sans-serif;
+ }
+
+#piemenu > svg {
+  width: 200%;
+  height: 200%;
+}
+
+#piemenu {
+  height: 300px;
+  width: 300px;
+  margin:auto;
+}
+
+@media (max-width: 400px) {
+  #piemenu {
+    height: 500px;
+    width: 500px; } }
+
+[class|=wheelnav-piemenu-slice-basic] { fill: #497F4C; stroke: none; }
+[class|=wheelnav-piemenu-slice-selected] { fill: #497F4C; stroke: none; }
+[class|=wheelnav-piemenu-slice-hover] { fill: #497F4C;  stroke: none; fill-opacity: 0.77; cursor: pointer; }
+
+[class|=wheelnav-piemenu-title-basic] { fill: #333; stroke: none; }
+[class|=wheelnav-piemenu-title-selected] { fill: purple; stroke: none; }
+[class|=wheelnav-piemenu-title-hover] { fill: #222; stroke: none; cursor: pointer; }
+[class|=wheelnav-piemenu-title] > tspan { font-family: Impact, Charcoal, sans-serif; font-size: 24px; }
